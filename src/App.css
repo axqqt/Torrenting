@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+* {
+  margin: 1%;
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  font-family: "Poppins", Courier, monospace;
+}
+
+.searchbar {
+  width: 20vw;
+  height: 20vh;
+}
+
+img {
+  display: flex;
+  height: fit-content;
+}
+
+.within {
+  margin: 5%;
+  padding: 2%;
+}
