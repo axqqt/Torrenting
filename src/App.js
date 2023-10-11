@@ -30,6 +30,7 @@ export default function App() {
         <h1>
           Hit Enter/Submit Again , if correct outcome is not being displayed!
         </h1>
+    /*
         <label >Select Quality:</label>
         <select
           name="membership"
@@ -44,7 +45,7 @@ export default function App() {
           <option value={"1080p"}>1080p</option>
           <option value={"720p"}>720p</option>
         </select>
-
+    */
         <input
           onChange={(e) => {
             setSearch(e.target.value);
@@ -54,11 +55,14 @@ export default function App() {
           type="text"
           className="searchbar"
         ></input>
+            /*
         <select>
           <option value={"20"} className="show">
             20
           </option>
         </select>
+        */
+    
         <button type="submit">Submit</button>
         {data.length === 0 ? (
           <p>No results found</p>
